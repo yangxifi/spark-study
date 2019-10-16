@@ -1,0 +1,432 @@
+2019-10-16 17:12:25  [ main:0 ] - [ INFO ]  Running Spark version 2.4.0
+2019-10-16 17:12:28  [ main:3099 ] - [ INFO ]  Submitted application: hive2es
+2019-10-16 17:12:29  [ main:4069 ] - [ INFO ]  Changing view acls to: yang
+2019-10-16 17:12:29  [ main:4081 ] - [ INFO ]  Changing modify acls to: yang
+2019-10-16 17:12:29  [ main:4094 ] - [ INFO ]  Changing view acls groups to: 
+2019-10-16 17:12:29  [ main:4108 ] - [ INFO ]  Changing modify acls groups to: 
+2019-10-16 17:12:30  [ main:4122 ] - [ INFO ]  SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(yang); groups with view permissions: Set(); users  with modify permissions: Set(yang); groups with modify permissions: Set()
+2019-10-16 17:12:35  [ main:9387 ] - [ INFO ]  Successfully started service 'sparkDriver' on port 24566.
+2019-10-16 17:12:35  [ main:9645 ] - [ INFO ]  Registering MapOutputTracker
+2019-10-16 17:12:35  [ main:9989 ] - [ INFO ]  Registering BlockManagerMaster
+2019-10-16 17:12:35  [ main:10061 ] - [ INFO ]  Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-10-16 17:12:35  [ main:10074 ] - [ INFO ]  BlockManagerMasterEndpoint up
+2019-10-16 17:12:36  [ main:10184 ] - [ INFO ]  Created local directory at C:\Users\yang\AppData\Local\Temp\blockmgr-e4182212-1143-4587-b172-131682f1750b
+2019-10-16 17:12:36  [ main:10429 ] - [ INFO ]  MemoryStore started with capacity 899.7 MB
+2019-10-16 17:12:36  [ main:10640 ] - [ INFO ]  Registering OutputCommitCoordinator
+2019-10-16 17:12:37  [ main:11596 ] - [ INFO ]  Logging initialized @16790ms
+2019-10-16 17:12:38  [ main:12228 ] - [ INFO ]  jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-10-16 17:12:38  [ main:12422 ] - [ INFO ]  Started @17618ms
+2019-10-16 17:12:38  [ main:12827 ] - [ INFO ]  Started ServerConnector@cc6460c{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-10-16 17:12:38  [ main:12828 ] - [ INFO ]  Successfully started service 'SparkUI' on port 4040.
+2019-10-16 17:12:38  [ main:12956 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@10027fc9{/jobs,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12957 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@30b34287{/jobs/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12958 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@5489c777{/jobs/job,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12959 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@62f87c44{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12960 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@48f5bde6{/stages,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12960 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@525d79f0{/stages/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12961 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@5149f008{/stages/stage,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12962 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@2ca65ce4{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12963 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@327120c8{/stages/pool,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12964 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@5707c1cb{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12965 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@2b5cb9b2{/storage,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12965 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@35038141{/storage/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12966 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@ecf9049{/storage/rdd,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12966 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@672f11c2{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12967 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@2970a5bc{/environment,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12968 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@50305a{/environment/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12968 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@72efb5c1{/executors,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12971 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@6d511b5f{/executors/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12972 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@41200e0c{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:12977 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@40f33492{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:13028 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@4fbdc0f0{/static,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:13028 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@40bffbca{/,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:13029 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@2449cff7{/api,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:13030 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@37d80fe7{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:13030 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@384fc774{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-10-16 17:12:38  [ main:13071 ] - [ INFO ]  Bound SparkUI to 0.0.0.0, and started at http://DESKTOP-OV2AJDU:4040
+2019-10-16 17:12:39  [ main:13863 ] - [ INFO ]  Starting executor ID driver on host localhost
+2019-10-16 17:12:40  [ main:14459 ] - [ INFO ]  Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 24690.
+2019-10-16 17:12:40  [ main:14459 ] - [ INFO ]  Server created on DESKTOP-OV2AJDU:24690
+2019-10-16 17:12:40  [ main:14474 ] - [ INFO ]  Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-10-16 17:12:40  [ main:14911 ] - [ INFO ]  Registering BlockManager BlockManagerId(driver, DESKTOP-OV2AJDU, 24690, None)
+2019-10-16 17:12:40  [ dispatcher-event-loop-2:14937 ] - [ INFO ]  Registering block manager DESKTOP-OV2AJDU:24690 with 899.7 MB RAM, BlockManagerId(driver, DESKTOP-OV2AJDU, 24690, None)
+2019-10-16 17:12:40  [ main:14978 ] - [ INFO ]  Registered BlockManager BlockManagerId(driver, DESKTOP-OV2AJDU, 24690, None)
+2019-10-16 17:12:40  [ main:14978 ] - [ INFO ]  Initialized BlockManager: BlockManagerId(driver, DESKTOP-OV2AJDU, 24690, None)
+2019-10-16 17:12:41  [ main:15952 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@65327f5{/metrics/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:41  [ main:16103 ] - [ INFO ]  Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('hdfs://devenv-bigdata-namenode1:8020/hadoop/hive/warehouse').
+2019-10-16 17:12:41  [ main:16104 ] - [ INFO ]  Warehouse path is 'hdfs://devenv-bigdata-namenode1:8020/hadoop/hive/warehouse'.
+2019-10-16 17:12:42  [ main:16140 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@37a64f9d{/SQL,null,AVAILABLE,@Spark}
+2019-10-16 17:12:42  [ main:16141 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@25b865b5{/SQL/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:42  [ main:16141 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@bdecc21{/SQL/execution,null,AVAILABLE,@Spark}
+2019-10-16 17:12:42  [ main:16142 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@5e3a39cd{/SQL/execution/json,null,AVAILABLE,@Spark}
+2019-10-16 17:12:42  [ main:16144 ] - [ INFO ]  Started o.s.j.s.ServletContextHandler@3a095ec0{/static/sql,null,AVAILABLE,@Spark}
+2019-10-16 17:12:43  [ main:17230 ] - [ INFO ]  Registered StateStoreCoordinator endpoint
+2019-10-16 17:12:43  [ main:17889 ] - [ INFO ]  Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+2019-10-16 17:12:44  [ main:18557 ] - [ INFO ]  Trying to connect to metastore with URI thrift://devenv-bigdata-masteryarn2:9083
+2019-10-16 17:12:44  [ main:18683 ] - [ INFO ]  Connected to metastore.
+2019-10-16 17:12:45  [ main:19441 ] - [ INFO ]  Created local directory: C:/Users/yang/AppData/Local/Temp/5df1a201-103f-483f-bd12-d1b26894c730_resources
+2019-10-16 17:12:45  [ main:19442 ] - [ INFO ]  Created HDFS directory: /tmp/hive/yang/5df1a201-103f-483f-bd12-d1b26894c730
+2019-10-16 17:12:45  [ main:19446 ] - [ INFO ]  Created local directory: C:/Users/yang/AppData/Local/Temp/yang/5df1a201-103f-483f-bd12-d1b26894c730
+2019-10-16 17:12:45  [ main:19479 ] - [ INFO ]  Created HDFS directory: /tmp/hive/yang/5df1a201-103f-483f-bd12-d1b26894c730/_tmp_space.db
+2019-10-16 17:12:45  [ main:19481 ] - [ INFO ]  Warehouse location for Hive client (version 1.2.2) is hdfs://devenv-bigdata-namenode1:8020/hadoop/hive/warehouse
+2019-10-16 17:12:48  [ main:22770 ] - [ INFO ]  Code generated in 223.3714 ms
+2019-10-16 17:12:49  [ broadcast-exchange-0:23138 ] - [ INFO ]  Code generated in 13.1157 ms
+2019-10-16 17:12:49  [ broadcast-exchange-0:23708 ] - [ INFO ]  Block broadcast_0 stored as values in memory (estimated size 226.6 KB, free 899.5 MB)
+2019-10-16 17:12:53  [ broadcast-exchange-0:27516 ] - [ INFO ]  Block broadcast_0_piece0 stored as bytes in memory (estimated size 21.0 KB, free 899.5 MB)
+2019-10-16 17:12:53  [ dispatcher-event-loop-7:27518 ] - [ INFO ]  Added broadcast_0_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 21.0 KB, free: 899.7 MB)
+2019-10-16 17:12:53  [ broadcast-exchange-0:27578 ] - [ INFO ]  Created broadcast 0 from 
+2019-10-16 17:12:57  [ broadcast-exchange-0:31639 ] - [ INFO ]  Total input paths to process : 2
+2019-10-16 17:12:57  [ broadcast-exchange-0:31952 ] - [ INFO ]  Starting job: run at ThreadPoolExecutor.java:1149
+2019-10-16 17:12:57  [ dag-scheduler-event-loop:32007 ] - [ INFO ]  Registering RDD 7 (run at ThreadPoolExecutor.java:1149)
+2019-10-16 17:12:57  [ dag-scheduler-event-loop:32031 ] - [ INFO ]  Got job 0 (run at ThreadPoolExecutor.java:1149) with 1 output partitions
+2019-10-16 17:12:57  [ dag-scheduler-event-loop:32032 ] - [ INFO ]  Final stage: ResultStage 1 (run at ThreadPoolExecutor.java:1149)
+2019-10-16 17:12:57  [ dag-scheduler-event-loop:32032 ] - [ INFO ]  Parents of final stage: List(ShuffleMapStage 0)
+2019-10-16 17:12:57  [ dag-scheduler-event-loop:32041 ] - [ INFO ]  Missing parents: List(ShuffleMapStage 0)
+2019-10-16 17:12:57  [ dag-scheduler-event-loop:32074 ] - [ INFO ]  Submitting ShuffleMapStage 0 (MapPartitionsRDD[7] at run at ThreadPoolExecutor.java:1149), which has no missing parents
+2019-10-16 17:12:58  [ dag-scheduler-event-loop:32116 ] - [ INFO ]  Block broadcast_1 stored as values in memory (estimated size 14.9 KB, free 899.4 MB)
+2019-10-16 17:12:58  [ dag-scheduler-event-loop:32138 ] - [ INFO ]  Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.7 KB, free 899.4 MB)
+2019-10-16 17:12:58  [ dispatcher-event-loop-1:32139 ] - [ INFO ]  Added broadcast_1_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 7.7 KB, free: 899.7 MB)
+2019-10-16 17:12:58  [ dag-scheduler-event-loop:32140 ] - [ INFO ]  Created broadcast 1 from broadcast at DAGScheduler.scala:1161
+2019-10-16 17:12:58  [ dag-scheduler-event-loop:32164 ] - [ INFO ]  Submitting 2 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[7] at run at ThreadPoolExecutor.java:1149) (first 15 tasks are for partitions Vector(0, 1))
+2019-10-16 17:12:58  [ dag-scheduler-event-loop:32173 ] - [ INFO ]  Adding task set 0.0 with 2 tasks
+2019-10-16 17:12:58  [ dispatcher-event-loop-0:32360 ] - [ INFO ]  Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, ANY, 8060 bytes)
+2019-10-16 17:12:58  [ dispatcher-event-loop-0:32362 ] - [ INFO ]  Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, ANY, 8067 bytes)
+2019-10-16 17:12:58  [ Executor task launch worker for task 0:32378 ] - [ INFO ]  Running task 0.0 in stage 0.0 (TID 0)
+2019-10-16 17:12:58  [ Executor task launch worker for task 1:32378 ] - [ INFO ]  Running task 1.0 in stage 0.0 (TID 1)
+2019-10-16 17:12:58  [ Executor task launch worker for task 0:32464 ] - [ INFO ]  Input split: hdfs://devenv-bigdata-namenode1:8020/hadoop/hive/warehouse/test_db.db/user_info/dt=2019-10-16/000000_0:0+9
+2019-10-16 17:12:58  [ Executor task launch worker for task 1:32464 ] - [ INFO ]  Input split: hdfs://devenv-bigdata-namenode1:8020/hadoop/hive/warehouse/test_db.db/user_info/dt=2019-10-16/000000_0_copy_1:0+9
+2019-10-16 17:12:58  [ Executor task launch worker for task 1:32794 ] - [ INFO ]  Code generated in 10.2939 ms
+2019-10-16 17:12:59  [ Executor task launch worker for task 0:33460 ] - [ INFO ]  Finished task 0.0 in stage 0.0 (TID 0). 1177 bytes result sent to driver
+2019-10-16 17:12:59  [ Executor task launch worker for task 1:33460 ] - [ INFO ]  Finished task 1.0 in stage 0.0 (TID 1). 1177 bytes result sent to driver
+2019-10-16 17:12:59  [ task-result-getter-1:33524 ] - [ INFO ]  Finished task 1.0 in stage 0.0 (TID 1) in 1162 ms on localhost (executor driver) (1/2)
+2019-10-16 17:12:59  [ task-result-getter-0:33528 ] - [ INFO ]  Finished task 0.0 in stage 0.0 (TID 0) in 1227 ms on localhost (executor driver) (2/2)
+2019-10-16 17:12:59  [ task-result-getter-0:33529 ] - [ INFO ]  Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33544 ] - [ INFO ]  ShuffleMapStage 0 (run at ThreadPoolExecutor.java:1149) finished in 1.429 s
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33546 ] - [ INFO ]  looking for newly runnable stages
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33546 ] - [ INFO ]  running: Set()
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33546 ] - [ INFO ]  waiting: Set(ResultStage 1)
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33547 ] - [ INFO ]  failed: Set()
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33550 ] - [ INFO ]  Submitting ResultStage 1 (MapPartitionsRDD[10] at run at ThreadPoolExecutor.java:1149), which has no missing parents
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33567 ] - [ INFO ]  Block broadcast_2 stored as values in memory (estimated size 10.1 KB, free 899.4 MB)
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33585 ] - [ INFO ]  Block broadcast_2_piece0 stored as bytes in memory (estimated size 5.6 KB, free 899.4 MB)
+2019-10-16 17:12:59  [ dispatcher-event-loop-6:33587 ] - [ INFO ]  Added broadcast_2_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 5.6 KB, free: 899.7 MB)
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33587 ] - [ INFO ]  Created broadcast 2 from broadcast at DAGScheduler.scala:1161
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33588 ] - [ INFO ]  Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[10] at run at ThreadPoolExecutor.java:1149) (first 15 tasks are for partitions Vector(0))
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33589 ] - [ INFO ]  Adding task set 1.0 with 1 tasks
+2019-10-16 17:12:59  [ dispatcher-event-loop-7:33590 ] - [ INFO ]  Starting task 0.0 in stage 1.0 (TID 2, localhost, executor driver, partition 0, ANY, 7767 bytes)
+2019-10-16 17:12:59  [ Executor task launch worker for task 2:33591 ] - [ INFO ]  Running task 0.0 in stage 1.0 (TID 2)
+2019-10-16 17:12:59  [ Executor task launch worker for task 2:33612 ] - [ INFO ]  Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-10-16 17:12:59  [ Executor task launch worker for task 2:33614 ] - [ INFO ]  Started 0 remote fetches in 9 ms
+2019-10-16 17:12:59  [ Executor task launch worker for task 2:33648 ] - [ INFO ]  Finished task 0.0 in stage 1.0 (TID 2). 1318 bytes result sent to driver
+2019-10-16 17:12:59  [ task-result-getter-2:33657 ] - [ INFO ]  Finished task 0.0 in stage 1.0 (TID 2) in 68 ms on localhost (executor driver) (1/1)
+2019-10-16 17:12:59  [ task-result-getter-2:33657 ] - [ INFO ]  Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:33658 ] - [ INFO ]  ResultStage 1 (run at ThreadPoolExecutor.java:1149) finished in 0.092 s
+2019-10-16 17:12:59  [ broadcast-exchange-0:33676 ] - [ INFO ]  Job 0 finished: run at ThreadPoolExecutor.java:1149, took 1.723229 s
+2019-10-16 17:12:59  [ broadcast-exchange-0:33723 ] - [ INFO ]  Block broadcast_3 stored as values in memory (estimated size 4.0 MB, free 895.4 MB)
+2019-10-16 17:12:59  [ broadcast-exchange-0:33735 ] - [ INFO ]  Block broadcast_3_piece0 stored as bytes in memory (estimated size 157.0 B, free 895.4 MB)
+2019-10-16 17:12:59  [ dispatcher-event-loop-3:33736 ] - [ INFO ]  Added broadcast_3_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 157.0 B, free: 899.7 MB)
+2019-10-16 17:12:59  [ broadcast-exchange-0:33737 ] - [ INFO ]  Created broadcast 3 from run at ThreadPoolExecutor.java:1149
+2019-10-16 17:12:59  [ main:33860 ] - [ INFO ]  Code generated in 51.0287 ms
+2019-10-16 17:12:59  [ main:33870 ] - [ INFO ]  Block broadcast_4 stored as values in memory (estimated size 226.7 KB, free 895.2 MB)
+2019-10-16 17:12:59  [ main:33889 ] - [ INFO ]  Block broadcast_4_piece0 stored as bytes in memory (estimated size 21.0 KB, free 895.2 MB)
+2019-10-16 17:12:59  [ dispatcher-event-loop-2:33890 ] - [ INFO ]  Added broadcast_4_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 21.0 KB, free: 899.6 MB)
+2019-10-16 17:12:59  [ main:33890 ] - [ INFO ]  Created broadcast 4 from 
+2019-10-16 17:12:59  [ main:34092 ] - [ INFO ]  Total input paths to process : 2
+2019-10-16 17:12:59  [ main:34097 ] - [ INFO ]  Starting job: first at EsLoader.java:23
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:34099 ] - [ INFO ]  Got job 1 (first at EsLoader.java:23) with 1 output partitions
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:34099 ] - [ INFO ]  Final stage: ResultStage 2 (first at EsLoader.java:23)
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:34099 ] - [ INFO ]  Parents of final stage: List()
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:34105 ] - [ INFO ]  Missing parents: List()
+2019-10-16 17:12:59  [ dag-scheduler-event-loop:34106 ] - [ INFO ]  Submitting ResultStage 2 (MapPartitionsRDD[22] at first at EsLoader.java:23), which has no missing parents
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34123 ] - [ INFO ]  Block broadcast_5 stored as values in memory (estimated size 30.3 KB, free 895.1 MB)
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34138 ] - [ INFO ]  Block broadcast_5_piece0 stored as bytes in memory (estimated size 12.4 KB, free 895.1 MB)
+2019-10-16 17:13:00  [ dispatcher-event-loop-4:34139 ] - [ INFO ]  Added broadcast_5_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 12.4 KB, free: 899.6 MB)
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34139 ] - [ INFO ]  Created broadcast 5 from broadcast at DAGScheduler.scala:1161
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34140 ] - [ INFO ]  Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[22] at first at EsLoader.java:23) (first 15 tasks are for partitions Vector(0))
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34140 ] - [ INFO ]  Adding task set 2.0 with 1 tasks
+2019-10-16 17:13:00  [ dispatcher-event-loop-6:34141 ] - [ INFO ]  Starting task 0.0 in stage 2.0 (TID 3, localhost, executor driver, partition 0, ANY, 8071 bytes)
+2019-10-16 17:13:00  [ Executor task launch worker for task 3:34141 ] - [ INFO ]  Running task 0.0 in stage 2.0 (TID 3)
+2019-10-16 17:13:00  [ Executor task launch worker for task 3:34157 ] - [ INFO ]  Input split: hdfs://devenv-bigdata-namenode1:8020/hadoop/hive/warehouse/test_db.db/user_info/dt=2019-10-16/000000_0:0+9
+2019-10-16 17:13:00  [ Executor task launch worker for task 3:34178 ] - [ INFO ]  Code generated in 9.3458 ms
+2019-10-16 17:13:00  [ Executor task launch worker for task 3:34221 ] - [ INFO ]  Block rdd_17_0 stored as values in memory (estimated size 688.0 B, free 895.1 MB)
+2019-10-16 17:13:00  [ dispatcher-event-loop-2:34222 ] - [ INFO ]  Added rdd_17_0 in memory on DESKTOP-OV2AJDU:24690 (size: 688.0 B, free: 899.6 MB)
+2019-10-16 17:13:00  [ Executor task launch worker for task 3:34229 ] - [ INFO ]  Code generated in 3.899 ms
+2019-10-16 17:13:00  [ Executor task launch worker for task 3:34259 ] - [ INFO ]  Code generated in 23.5153 ms
+2019-10-16 17:13:00  [ Executor task launch worker for task 3:34269 ] - [ INFO ]  1 block locks were not released by TID = 3:
+[rdd_17_0]
+2019-10-16 17:13:00  [ Executor task launch worker for task 3:34273 ] - [ INFO ]  Finished task 0.0 in stage 2.0 (TID 3). 1563 bytes result sent to driver
+2019-10-16 17:13:00  [ task-result-getter-3:34281 ] - [ INFO ]  Finished task 0.0 in stage 2.0 (TID 3) in 140 ms on localhost (executor driver) (1/1)
+2019-10-16 17:13:00  [ task-result-getter-3:34281 ] - [ INFO ]  Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34281 ] - [ INFO ]  ResultStage 2 (first at EsLoader.java:23) finished in 0.175 s
+2019-10-16 17:13:00  [ main:34282 ] - [ INFO ]  Job 1 finished: first at EsLoader.java:23, took 0.184611 s
+2019-10-16 17:13:00  [ Spark Context Cleaner:34677 ] - [ INFO ]  Cleaned accumulator 63
+2019-10-16 17:13:00  [ Spark Context Cleaner:34678 ] - [ INFO ]  Cleaned accumulator 66
+2019-10-16 17:13:00  [ Spark Context Cleaner:34678 ] - [ INFO ]  Cleaned accumulator 69
+2019-10-16 17:13:00  [ Spark Context Cleaner:34678 ] - [ INFO ]  Cleaned accumulator 73
+2019-10-16 17:13:00  [ Spark Context Cleaner:34678 ] - [ INFO ]  Cleaned accumulator 75
+2019-10-16 17:13:00  [ dispatcher-event-loop-7:34733 ] - [ INFO ]  Removed broadcast_2_piece0 on DESKTOP-OV2AJDU:24690 in memory (size: 5.6 KB, free: 899.6 MB)
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 71
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 81
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 80
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 84
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 74
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 79
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 62
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 67
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 83
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 70
+2019-10-16 17:13:00  [ Spark Context Cleaner:34736 ] - [ INFO ]  Cleaned accumulator 86
+2019-10-16 17:13:00  [ dispatcher-event-loop-3:34738 ] - [ INFO ]  Removed broadcast_5_piece0 on DESKTOP-OV2AJDU:24690 in memory (size: 12.4 KB, free: 899.7 MB)
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 68
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 76
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 65
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 72
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 85
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 64
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 78
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 77
+2019-10-16 17:13:00  [ Spark Context Cleaner:34741 ] - [ INFO ]  Cleaned accumulator 82
+2019-10-16 17:13:00  [ main:34917 ] - [ INFO ]  Starting job: runJob at EsSparkSQL.scala:101
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34919 ] - [ INFO ]  Got job 2 (runJob at EsSparkSQL.scala:101) with 2 output partitions
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34919 ] - [ INFO ]  Final stage: ResultStage 3 (runJob at EsSparkSQL.scala:101)
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34919 ] - [ INFO ]  Parents of final stage: List()
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34920 ] - [ INFO ]  Missing parents: List()
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34920 ] - [ INFO ]  Submitting ResultStage 3 (MapPartitionsRDD[27] at rdd at EsSparkSQL.scala:101), which has no missing parents
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34928 ] - [ INFO ]  Block broadcast_6 stored as values in memory (estimated size 33.1 KB, free 895.2 MB)
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34936 ] - [ INFO ]  Block broadcast_6_piece0 stored as bytes in memory (estimated size 13.9 KB, free 895.1 MB)
+2019-10-16 17:13:00  [ dispatcher-event-loop-5:34937 ] - [ INFO ]  Added broadcast_6_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 13.9 KB, free: 899.6 MB)
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34937 ] - [ INFO ]  Created broadcast 6 from broadcast at DAGScheduler.scala:1161
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34938 ] - [ INFO ]  Submitting 2 missing tasks from ResultStage 3 (MapPartitionsRDD[27] at rdd at EsSparkSQL.scala:101) (first 15 tasks are for partitions Vector(0, 1))
+2019-10-16 17:13:00  [ dag-scheduler-event-loop:34938 ] - [ INFO ]  Adding task set 3.0 with 2 tasks
+2019-10-16 17:13:00  [ dispatcher-event-loop-6:34941 ] - [ INFO ]  Starting task 0.0 in stage 3.0 (TID 4, localhost, executor driver, partition 0, PROCESS_LOCAL, 8071 bytes)
+2019-10-16 17:13:00  [ dispatcher-event-loop-6:34943 ] - [ INFO ]  Starting task 1.0 in stage 3.0 (TID 5, localhost, executor driver, partition 1, ANY, 8078 bytes)
+2019-10-16 17:13:00  [ Executor task launch worker for task 5:34944 ] - [ INFO ]  Running task 1.0 in stage 3.0 (TID 5)
+2019-10-16 17:13:00  [ Executor task launch worker for task 4:34944 ] - [ INFO ]  Running task 0.0 in stage 3.0 (TID 4)
+2019-10-16 17:13:00  [ Executor task launch worker for task 5:34950 ] - [ INFO ]  Input split: hdfs://devenv-bigdata-namenode1:8020/hadoop/hive/warehouse/test_db.db/user_info/dt=2019-10-16/000000_0_copy_1:0+9
+2019-10-16 17:13:00  [ Executor task launch worker for task 4:34951 ] - [ INFO ]  Found block rdd_17_0 locally
+2019-10-16 17:13:00  [ Executor task launch worker for task 4:34969 ] - [ INFO ]  Code generated in 12.068 ms
+2019-10-16 17:13:00  [ Executor task launch worker for task 4:34987 ] - [ INFO ]  Elasticsearch Hadoop v7.0.0 [9ca7c6222b]
+2019-10-16 17:13:00  [ Executor task launch worker for task 4:35034 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:00  [ Executor task launch worker for task 4:35034 ] - [ INFO ]  Writing to [user_info_20191016/docs]
+2019-10-16 17:13:00  [ Executor task launch worker for task 4:35050 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:01  [ Executor task launch worker for task 4:35188 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:01  [ Executor task launch worker for task 4:35204 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:01  [ Executor task launch worker for task 5:35216 ] - [ INFO ]  Block rdd_17_1 stored as values in memory (estimated size 704.0 B, free 895.1 MB)
+2019-10-16 17:13:01  [ dispatcher-event-loop-0:35218 ] - [ INFO ]  Added rdd_17_1 in memory on DESKTOP-OV2AJDU:24690 (size: 704.0 B, free: 899.6 MB)
+2019-10-16 17:13:01  [ Executor task launch worker for task 5:35241 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:01  [ Executor task launch worker for task 5:35242 ] - [ INFO ]  Writing to [user_info_20191016/docs]
+2019-10-16 17:13:01  [ Executor task launch worker for task 5:35247 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:01  [ Executor task launch worker for task 5:35258 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:01  [ Executor task launch worker for task 5:35259 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:01  [ Executor task launch worker for task 4:35362 ] - [ INFO ]  Finished task 0.0 in stage 3.0 (TID 4). 1461 bytes result sent to driver
+2019-10-16 17:13:01  [ task-result-getter-1:35363 ] - [ INFO ]  Finished task 0.0 in stage 3.0 (TID 4) in 423 ms on localhost (executor driver) (1/2)
+2019-10-16 17:13:01  [ Executor task launch worker for task 5:35363 ] - [ INFO ]  Finished task 1.0 in stage 3.0 (TID 5). 1461 bytes result sent to driver
+2019-10-16 17:13:01  [ task-result-getter-0:35363 ] - [ INFO ]  Finished task 1.0 in stage 3.0 (TID 5) in 420 ms on localhost (executor driver) (2/2)
+2019-10-16 17:13:01  [ task-result-getter-0:35363 ] - [ INFO ]  Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2019-10-16 17:13:01  [ dag-scheduler-event-loop:35364 ] - [ INFO ]  ResultStage 3 (runJob at EsSparkSQL.scala:101) finished in 0.443 s
+2019-10-16 17:13:01  [ main:35365 ] - [ INFO ]  Job 2 finished: runJob at EsSparkSQL.scala:101, took 0.447655 s
+2019-10-16 17:13:11  [ main:45650 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:11  [ main:45870 ] - [ INFO ]  Code generated in 15.6829 ms
+2019-10-16 17:13:11  [ main:45903 ] - [ INFO ]  Code generated in 6.8117 ms
+2019-10-16 17:13:11  [ main:45916 ] - [ INFO ]  Starting job: count at EsUtil.java:27
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45917 ] - [ INFO ]  Registering RDD 32 (count at EsUtil.java:27)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45917 ] - [ INFO ]  Got job 3 (count at EsUtil.java:27) with 1 output partitions
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45917 ] - [ INFO ]  Final stage: ResultStage 5 (count at EsUtil.java:27)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45917 ] - [ INFO ]  Parents of final stage: List(ShuffleMapStage 4)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45918 ] - [ INFO ]  Missing parents: List(ShuffleMapStage 4)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45918 ] - [ INFO ]  Submitting ShuffleMapStage 4 (MapPartitionsRDD[32] at count at EsUtil.java:27), which has no missing parents
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45922 ] - [ INFO ]  Block broadcast_7 stored as values in memory (estimated size 34.0 KB, free 895.1 MB)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45930 ] - [ INFO ]  Block broadcast_7_piece0 stored as bytes in memory (estimated size 14.0 KB, free 895.1 MB)
+2019-10-16 17:13:11  [ dispatcher-event-loop-7:45931 ] - [ INFO ]  Added broadcast_7_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 14.0 KB, free: 899.6 MB)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45931 ] - [ INFO ]  Created broadcast 7 from broadcast at DAGScheduler.scala:1161
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45932 ] - [ INFO ]  Submitting 2 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[32] at count at EsUtil.java:27) (first 15 tasks are for partitions Vector(0, 1))
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45932 ] - [ INFO ]  Adding task set 4.0 with 2 tasks
+2019-10-16 17:13:11  [ dispatcher-event-loop-1:45933 ] - [ INFO ]  Starting task 0.0 in stage 4.0 (TID 6, localhost, executor driver, partition 0, PROCESS_LOCAL, 8060 bytes)
+2019-10-16 17:13:11  [ dispatcher-event-loop-1:45933 ] - [ INFO ]  Starting task 1.0 in stage 4.0 (TID 7, localhost, executor driver, partition 1, PROCESS_LOCAL, 8067 bytes)
+2019-10-16 17:13:11  [ Executor task launch worker for task 7:45934 ] - [ INFO ]  Running task 1.0 in stage 4.0 (TID 7)
+2019-10-16 17:13:11  [ Executor task launch worker for task 6:45934 ] - [ INFO ]  Running task 0.0 in stage 4.0 (TID 6)
+2019-10-16 17:13:11  [ Executor task launch worker for task 6:45937 ] - [ INFO ]  Found block rdd_17_0 locally
+2019-10-16 17:13:11  [ Executor task launch worker for task 7:45937 ] - [ INFO ]  Found block rdd_17_1 locally
+2019-10-16 17:13:11  [ Executor task launch worker for task 6:45951 ] - [ INFO ]  Code generated in 13.0962 ms
+2019-10-16 17:13:11  [ Executor task launch worker for task 7:45976 ] - [ INFO ]  Finished task 1.0 in stage 4.0 (TID 7). 2008 bytes result sent to driver
+2019-10-16 17:13:11  [ task-result-getter-2:45978 ] - [ INFO ]  Finished task 1.0 in stage 4.0 (TID 7) in 45 ms on localhost (executor driver) (1/2)
+2019-10-16 17:13:11  [ Executor task launch worker for task 6:45979 ] - [ INFO ]  Finished task 0.0 in stage 4.0 (TID 6). 1965 bytes result sent to driver
+2019-10-16 17:13:11  [ task-result-getter-3:45980 ] - [ INFO ]  Finished task 0.0 in stage 4.0 (TID 6) in 47 ms on localhost (executor driver) (2/2)
+2019-10-16 17:13:11  [ task-result-getter-3:45980 ] - [ INFO ]  Removed TaskSet 4.0, whose tasks have all completed, from pool 
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45981 ] - [ INFO ]  ShuffleMapStage 4 (count at EsUtil.java:27) finished in 0.061 s
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45981 ] - [ INFO ]  looking for newly runnable stages
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45981 ] - [ INFO ]  running: Set()
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45981 ] - [ INFO ]  waiting: Set(ResultStage 5)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45981 ] - [ INFO ]  failed: Set()
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45982 ] - [ INFO ]  Submitting ResultStage 5 (MapPartitionsRDD[35] at count at EsUtil.java:27), which has no missing parents
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45984 ] - [ INFO ]  Block broadcast_8 stored as values in memory (estimated size 7.1 KB, free 895.1 MB)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45992 ] - [ INFO ]  Block broadcast_8_piece0 stored as bytes in memory (estimated size 3.8 KB, free 895.1 MB)
+2019-10-16 17:13:11  [ dispatcher-event-loop-6:45993 ] - [ INFO ]  Added broadcast_8_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 3.8 KB, free: 899.6 MB)
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45994 ] - [ INFO ]  Created broadcast 8 from broadcast at DAGScheduler.scala:1161
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45995 ] - [ INFO ]  Submitting 1 missing tasks from ResultStage 5 (MapPartitionsRDD[35] at count at EsUtil.java:27) (first 15 tasks are for partitions Vector(0))
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:45995 ] - [ INFO ]  Adding task set 5.0 with 1 tasks
+2019-10-16 17:13:11  [ dispatcher-event-loop-4:45996 ] - [ INFO ]  Starting task 0.0 in stage 5.0 (TID 8, localhost, executor driver, partition 0, ANY, 7767 bytes)
+2019-10-16 17:13:11  [ Executor task launch worker for task 8:45996 ] - [ INFO ]  Running task 0.0 in stage 5.0 (TID 8)
+2019-10-16 17:13:11  [ Executor task launch worker for task 8:45999 ] - [ INFO ]  Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-10-16 17:13:11  [ Executor task launch worker for task 8:45999 ] - [ INFO ]  Started 0 remote fetches in 1 ms
+2019-10-16 17:13:11  [ Executor task launch worker for task 8:46009 ] - [ INFO ]  Finished task 0.0 in stage 5.0 (TID 8). 1541 bytes result sent to driver
+2019-10-16 17:13:11  [ task-result-getter-1:46010 ] - [ INFO ]  Finished task 0.0 in stage 5.0 (TID 8) in 15 ms on localhost (executor driver) (1/1)
+2019-10-16 17:13:11  [ task-result-getter-1:46010 ] - [ INFO ]  Removed TaskSet 5.0, whose tasks have all completed, from pool 
+2019-10-16 17:13:11  [ dag-scheduler-event-loop:46011 ] - [ INFO ]  ResultStage 5 (count at EsUtil.java:27) finished in 0.028 s
+2019-10-16 17:13:11  [ main:46011 ] - [ INFO ]  Job 3 finished: count at EsUtil.java:27, took 0.095613 s
+2019-10-16 17:13:11  [ main:46081 ] - [ INFO ]  Code generated in 9.1234 ms
+2019-10-16 17:13:11  [ main:46094 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:11  [ main:46097 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:12  [ Spark Context Cleaner:46138 ] - [ INFO ]  Cleaned accumulator 93
+2019-10-16 17:13:12  [ Spark Context Cleaner:46140 ] - [ INFO ]  Cleaned accumulator 109
+2019-10-16 17:13:12  [ dispatcher-event-loop-2:46145 ] - [ INFO ]  Removed broadcast_7_piece0 on DESKTOP-OV2AJDU:24690 in memory (size: 14.0 KB, free: 899.6 MB)
+2019-10-16 17:13:12  [ Spark Context Cleaner:46148 ] - [ INFO ]  Cleaned accumulator 111
+2019-10-16 17:13:12  [ Spark Context Cleaner:46149 ] - [ INFO ]  Cleaned accumulator 138
+2019-10-16 17:13:12  [ main:46149 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:12  [ Spark Context Cleaner:46149 ] - [ INFO ]  Cleaned accumulator 142
+2019-10-16 17:13:12  [ Spark Context Cleaner:46150 ] - [ INFO ]  Cleaned accumulator 127
+2019-10-16 17:13:12  [ Spark Context Cleaner:46150 ] - [ INFO ]  Cleaned accumulator 92
+2019-10-16 17:13:12  [ dispatcher-event-loop-4:46153 ] - [ INFO ]  Removed broadcast_6_piece0 on DESKTOP-OV2AJDU:24690 in memory (size: 13.9 KB, free: 899.6 MB)
+2019-10-16 17:13:12  [ Spark Context Cleaner:46157 ] - [ INFO ]  Cleaned accumulator 89
+2019-10-16 17:13:12  [ Spark Context Cleaner:46158 ] - [ INFO ]  Cleaned accumulator 148
+2019-10-16 17:13:12  [ Spark Context Cleaner:46158 ] - [ INFO ]  Cleaned accumulator 98
+2019-10-16 17:13:12  [ Spark Context Cleaner:46158 ] - [ INFO ]  Cleaned accumulator 108
+2019-10-16 17:13:12  [ Spark Context Cleaner:46158 ] - [ INFO ]  Cleaned accumulator 175
+2019-10-16 17:13:12  [ Spark Context Cleaner:46158 ] - [ INFO ]  Cleaned accumulator 130
+2019-10-16 17:13:12  [ Spark Context Cleaner:46158 ] - [ INFO ]  Cleaned accumulator 119
+2019-10-16 17:13:12  [ Spark Context Cleaner:46158 ] - [ INFO ]  Cleaned accumulator 94
+2019-10-16 17:13:12  [ Spark Context Cleaner:46159 ] - [ INFO ]  Cleaned accumulator 87
+2019-10-16 17:13:12  [ Spark Context Cleaner:46159 ] - [ INFO ]  Cleaned accumulator 171
+2019-10-16 17:13:12  [ Spark Context Cleaner:46159 ] - [ INFO ]  Cleaned accumulator 178
+2019-10-16 17:13:12  [ Spark Context Cleaner:46159 ] - [ INFO ]  Cleaned accumulator 126
+2019-10-16 17:13:12  [ Spark Context Cleaner:46160 ] - [ INFO ]  Cleaned accumulator 95
+2019-10-16 17:13:12  [ Spark Context Cleaner:46160 ] - [ INFO ]  Cleaned accumulator 99
+2019-10-16 17:13:12  [ Spark Context Cleaner:46160 ] - [ INFO ]  Cleaned accumulator 159
+2019-10-16 17:13:12  [ Spark Context Cleaner:46160 ] - [ INFO ]  Cleaned accumulator 150
+2019-10-16 17:13:12  [ Spark Context Cleaner:46160 ] - [ INFO ]  Cleaned accumulator 160
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 128
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 97
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 105
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 101
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 134
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 110
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 153
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 169
+2019-10-16 17:13:12  [ Spark Context Cleaner:46161 ] - [ INFO ]  Cleaned accumulator 114
+2019-10-16 17:13:12  [ dispatcher-event-loop-3:46163 ] - [ INFO ]  Removed broadcast_8_piece0 on DESKTOP-OV2AJDU:24690 in memory (size: 3.8 KB, free: 899.6 MB)
+2019-10-16 17:13:12  [ Spark Context Cleaner:46165 ] - [ INFO ]  Cleaned accumulator 91
+2019-10-16 17:13:12  [ Spark Context Cleaner:46166 ] - [ INFO ]  Cleaned accumulator 144
+2019-10-16 17:13:12  [ Spark Context Cleaner:46166 ] - [ INFO ]  Cleaned accumulator 177
+2019-10-16 17:13:12  [ Spark Context Cleaner:46166 ] - [ INFO ]  Cleaned accumulator 152
+2019-10-16 17:13:12  [ Spark Context Cleaner:46166 ] - [ INFO ]  Cleaned accumulator 155
+2019-10-16 17:13:12  [ main:46170 ] - [ INFO ]  Reading from [user_info_20191016/docs]
+2019-10-16 17:13:12  [ Spark Context Cleaner:46181 ] - [ INFO ]  Cleaned shuffle 1
+2019-10-16 17:13:12  [ Spark Context Cleaner:46182 ] - [ INFO ]  Cleaned accumulator 100
+2019-10-16 17:13:12  [ Spark Context Cleaner:46182 ] - [ INFO ]  Cleaned accumulator 163
+2019-10-16 17:13:12  [ Spark Context Cleaner:46182 ] - [ INFO ]  Cleaned accumulator 140
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 103
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 173
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 162
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 113
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 131
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 174
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 154
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 156
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 106
+2019-10-16 17:13:12  [ Spark Context Cleaner:46183 ] - [ INFO ]  Cleaned accumulator 165
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 132
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 115
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 120
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 102
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 117
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 157
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 90
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 164
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 124
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 136
+2019-10-16 17:13:12  [ Spark Context Cleaner:46184 ] - [ INFO ]  Cleaned accumulator 118
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 167
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 96
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 147
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 180
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 133
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 141
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 145
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 158
+2019-10-16 17:13:12  [ Spark Context Cleaner:46185 ] - [ INFO ]  Cleaned accumulator 139
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 166
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 112
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 137
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 172
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 116
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 122
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 143
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 170
+2019-10-16 17:13:12  [ Spark Context Cleaner:46186 ] - [ INFO ]  Cleaned accumulator 88
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 135
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 104
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 176
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 129
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 149
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 161
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 179
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 151
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 121
+2019-10-16 17:13:12  [ Spark Context Cleaner:46187 ] - [ INFO ]  Cleaned accumulator 107
+2019-10-16 17:13:12  [ Spark Context Cleaner:46188 ] - [ INFO ]  Cleaned accumulator 146
+2019-10-16 17:13:12  [ Spark Context Cleaner:46188 ] - [ INFO ]  Cleaned accumulator 125
+2019-10-16 17:13:12  [ Spark Context Cleaner:46188 ] - [ INFO ]  Cleaned accumulator 123
+2019-10-16 17:13:12  [ Spark Context Cleaner:46189 ] - [ INFO ]  Cleaned accumulator 168
+2019-10-16 17:13:12  [ main:46228 ] - [ INFO ]  Starting job: count at EsUtil.java:28
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46229 ] - [ INFO ]  Registering RDD 39 (count at EsUtil.java:28)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46229 ] - [ INFO ]  Got job 4 (count at EsUtil.java:28) with 1 output partitions
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46229 ] - [ INFO ]  Final stage: ResultStage 7 (count at EsUtil.java:28)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46229 ] - [ INFO ]  Parents of final stage: List(ShuffleMapStage 6)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46230 ] - [ INFO ]  Missing parents: List(ShuffleMapStage 6)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46230 ] - [ INFO ]  Submitting ShuffleMapStage 6 (MapPartitionsRDD[39] at count at EsUtil.java:28), which has no missing parents
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46241 ] - [ INFO ]  Block broadcast_9 stored as values in memory (estimated size 10.6 KB, free 895.2 MB)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46250 ] - [ INFO ]  Block broadcast_9_piece0 stored as bytes in memory (estimated size 5.6 KB, free 895.2 MB)
+2019-10-16 17:13:12  [ dispatcher-event-loop-6:46252 ] - [ INFO ]  Added broadcast_9_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 5.6 KB, free: 899.6 MB)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46252 ] - [ INFO ]  Created broadcast 9 from broadcast at DAGScheduler.scala:1161
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46253 ] - [ INFO ]  Submitting 1 missing tasks from ShuffleMapStage 6 (MapPartitionsRDD[39] at count at EsUtil.java:28) (first 15 tasks are for partitions Vector(0))
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46253 ] - [ INFO ]  Adding task set 6.0 with 1 tasks
+2019-10-16 17:13:12  [ dispatcher-event-loop-5:46256 ] - [ INFO ]  Starting task 0.0 in stage 6.0 (TID 9, localhost, executor driver, partition 0, ANY, 11781 bytes)
+2019-10-16 17:13:12  [ Executor task launch worker for task 9:46257 ] - [ INFO ]  Running task 0.0 in stage 6.0 (TID 9)
+2019-10-16 17:13:12  [ Executor task launch worker for task 9:46657 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:12  [ Executor task launch worker for task 9:46662 ] - [ WARN ]  Detected type name in resource [user_info_20191016/docs]. Type names are deprecated and will be removed in a later release.
+2019-10-16 17:13:12  [ Executor task launch worker for task 9:46752 ] - [ INFO ]  Joda library available in the classpath; using it for date/time handling...
+2019-10-16 17:13:12  [ Executor task launch worker for task 9:46769 ] - [ INFO ]  Finished task 0.0 in stage 6.0 (TID 9). 1393 bytes result sent to driver
+2019-10-16 17:13:12  [ task-result-getter-0:46770 ] - [ INFO ]  Finished task 0.0 in stage 6.0 (TID 9) in 516 ms on localhost (executor driver) (1/1)
+2019-10-16 17:13:12  [ task-result-getter-0:46770 ] - [ INFO ]  Removed TaskSet 6.0, whose tasks have all completed, from pool 
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46771 ] - [ INFO ]  ShuffleMapStage 6 (count at EsUtil.java:28) finished in 0.540 s
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46771 ] - [ INFO ]  looking for newly runnable stages
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46771 ] - [ INFO ]  running: Set()
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46771 ] - [ INFO ]  waiting: Set(ResultStage 7)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46771 ] - [ INFO ]  failed: Set()
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46772 ] - [ INFO ]  Submitting ResultStage 7 (MapPartitionsRDD[42] at count at EsUtil.java:28), which has no missing parents
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46774 ] - [ INFO ]  Block broadcast_10 stored as values in memory (estimated size 7.1 KB, free 895.2 MB)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46780 ] - [ INFO ]  Block broadcast_10_piece0 stored as bytes in memory (estimated size 3.8 KB, free 895.2 MB)
+2019-10-16 17:13:12  [ dispatcher-event-loop-7:46787 ] - [ INFO ]  Added broadcast_10_piece0 in memory on DESKTOP-OV2AJDU:24690 (size: 3.8 KB, free: 899.6 MB)
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46787 ] - [ INFO ]  Created broadcast 10 from broadcast at DAGScheduler.scala:1161
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46788 ] - [ INFO ]  Submitting 1 missing tasks from ResultStage 7 (MapPartitionsRDD[42] at count at EsUtil.java:28) (first 15 tasks are for partitions Vector(0))
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46788 ] - [ INFO ]  Adding task set 7.0 with 1 tasks
+2019-10-16 17:13:12  [ dispatcher-event-loop-3:46788 ] - [ INFO ]  Starting task 0.0 in stage 7.0 (TID 10, localhost, executor driver, partition 0, ANY, 7767 bytes)
+2019-10-16 17:13:12  [ Executor task launch worker for task 10:46789 ] - [ INFO ]  Running task 0.0 in stage 7.0 (TID 10)
+2019-10-16 17:13:12  [ Executor task launch worker for task 10:46791 ] - [ INFO ]  Getting 1 non-empty blocks including 1 local blocks and 0 remote blocks
+2019-10-16 17:13:12  [ Executor task launch worker for task 10:46791 ] - [ INFO ]  Started 0 remote fetches in 0 ms
+2019-10-16 17:13:12  [ Executor task launch worker for task 10:46796 ] - [ INFO ]  Finished task 0.0 in stage 7.0 (TID 10). 1498 bytes result sent to driver
+2019-10-16 17:13:12  [ task-result-getter-2:46797 ] - [ INFO ]  Finished task 0.0 in stage 7.0 (TID 10) in 9 ms on localhost (executor driver) (1/1)
+2019-10-16 17:13:12  [ task-result-getter-2:46797 ] - [ INFO ]  Removed TaskSet 7.0, whose tasks have all completed, from pool 
+2019-10-16 17:13:12  [ dag-scheduler-event-loop:46797 ] - [ INFO ]  ResultStage 7 (count at EsUtil.java:28) finished in 0.025 s
+2019-10-16 17:13:12  [ main:46798 ] - [ INFO ]  Job 4 finished: count at EsUtil.java:28, took 0.569392 s
+2019-10-16 17:13:12  [ main:46799 ] - [ INFO ]  count in hive:2,count in es:2
+2019-10-16 17:13:12  [ main:46858 ] - [ INFO ]  Stopped Spark@cc6460c{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-10-16 17:13:12  [ main:46864 ] - [ INFO ]  Stopped Spark web UI at http://DESKTOP-OV2AJDU:4040
+2019-10-16 17:13:12  [ dispatcher-event-loop-4:46914 ] - [ INFO ]  MapOutputTrackerMasterEndpoint stopped!
+2019-10-16 17:13:12  [ main:47023 ] - [ INFO ]  MemoryStore cleared
+2019-10-16 17:13:12  [ main:47023 ] - [ INFO ]  BlockManager stopped
+2019-10-16 17:13:12  [ main:47025 ] - [ INFO ]  BlockManagerMaster stopped
+2019-10-16 17:13:12  [ dispatcher-event-loop-2:47029 ] - [ INFO ]  OutputCommitCoordinator stopped!
+2019-10-16 17:13:12  [ main:47036 ] - [ INFO ]  Successfully stopped SparkContext
+2019-10-16 17:13:12  [ Thread-1:47050 ] - [ INFO ]  Shutdown hook called
+2019-10-16 17:13:12  [ Thread-1:47067 ] - [ INFO ]  Deleting directory C:\Users\yang\AppData\Local\Temp\spark-b50cdce5-a8f5-4347-a2b7-7357fce14da7
